@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+
+        .card {
+            max-width: 600px;
+            padding: 20px;
+            margin: 0 auto;
+            border: 1px solid rgb(189, 189, 162);
+            border-radius: 2px;
+            background-color: white;
+
+        }
+
+        .inputbar {
+            width: 300px;
+        }
+
+        .label {
+            display: inline-block;
+            width: 200px;
+            line-height: 3em;
+
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-none {
+            flex-direction: column;
+        }
+
+        .btn {
+            display: block;
+            padding: 5px;
+            margin: 10px 0px;
+            background-color: cornflowerblue;
+            color: white;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <h1>Hubungi kami</h1>
+            <p>
+                <b>Kantor:</b>di jalan belum jadi <br>
+                <b>No Telepon:</b>08XX-XXXX-XXXX <br>
+                <b>Email:</b>email@contoh.com
+            </p>
+        </header>
+        <main>
+            <h2>Kirimkan pesan</h2>
+            <label for="nama" class="label"><b>Nama:</b></label>
+            <input type="text" name="nama" id="nama" class="inputbar"> <br>
+
+            <label for="email" class="label"><b>Email:</b></label>
+            <input type="text" name="email" id="email" class="inputbar"> <br>
+            <div class="flex-row">
+                <label for="gender" class="label"><b>Jenis Kelamin:</b></label>
+
+                <div class="flex-column">
+                    <input type="radio" name="gender" id="laki" checked>
+                    <label for="laki" class="flex-none">Laki-Laki</label> <br>
+
+                    <input type="radio" name="gender" id="perempuan">
+                    <label for="perempuan" class="flex-none">Perempuan</label>
+                </div>
+            </div>
+            <label for="pesan" class="label"><b>Pesan Anda:</b></label>
+            <textarea name="pesan" id="pesan" cols="30" rows="10" class="inputbar"></textarea>
+            <input type="submit" value="Kirim" class="btn">
+            <a href="./index.html">kembali ke index</a>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>

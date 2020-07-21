@@ -1,0 +1,75 @@
+body {
+    font-family: 'Slabo 27px';
+    background-image: url('../../public/img/pattern.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: white;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+
+}
+
+header img {
+    float: left;
+}
+
+body a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    line-height: 60px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+nav li:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+section {
+    background-color: white;
+    max-width: 800px;
+    margin: 10px auto 0 auto;
+    padding: 0 10px;
+}
+
+section h1 {
+    text-align: center;
+    line-height: 60px;
+    margin: 20px;
+}
+
+section h3 {
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+}
