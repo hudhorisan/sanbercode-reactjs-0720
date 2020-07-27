@@ -119,7 +119,7 @@ sungokong.yell() // "Auooo"
 const kodok = new Frog("buduk");
 kodok.jump() // "hop hop" 
 
-//Soal 4
+//Soal 5
 class Clock {
     constructor({
         template
